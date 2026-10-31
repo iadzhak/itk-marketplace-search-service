@@ -16,3 +16,6 @@ CLAUDE.md
 
 # macOS
 .DS_Store
+
+# Pycharm
+.idea
