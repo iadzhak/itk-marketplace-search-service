@@ -11,6 +11,8 @@ class Settings(BaseSettings):
     postgres_port: int = 5435
     postgres_username: str = "postgres"
 
+    log_level: str = "INFO"
+
     kafka_bootstrap_servers: str = Field("localhost:9092", alias="KAFKA_BROKERS")
     kafka_topic_ads: str = "ads"
     kafka_consumer_group: str = "search-service"
